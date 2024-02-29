@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	
+	scroll-behavior: smooth;
+	-ms-overflow-style:none;
+    scroll-bar-width:none;
+
+}
+body{
+	    scroll-bar-width:none;
+}
+.navbar{
+	/*background-color: rgba(0,0,0,0)!important;*/
+	background-color: black!important;
+	text-decoration-color: white;
+}
+.navbar-brand{
+	color: white!important;
+}
+
+.navbar-toggler{
+	border: 2px solid white!important;
+}
+.navbar-toggler-icon{
+	text-decoration-color: white;
+	
+	color: black!important;
+}
+
+.navbar-nav a{
+	color:white!important;
+	
+}
+.head-banner{
+	height: 100vh;
+background-color: black;
+	padding: 7px;
+	
+	
+}
+.display-4{
+	color: aliceblue;
+}
+.banner-text{
+	color: aliceblue;
+}
+#music{
+	background-color: blanchedalmond;
+}
+.col-lg-4{
+	padding: 20px;
+}
+.assets{
+	height: auto;
+	width: inherit;
+	padding: 7px;
+	object-fit: cover;
+}
+
+/*
+.links-container{
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+*/
+
+.phish-btn{
+	padding: 7px;
+	background-color: lightcoral;
+	border-radius: 5px;
+	width: 250px;
+	margin: 7px;
+}
+
+.gal{
+	
+	width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+	
+	/*
+	height: 250px;
+	margin-bottom: 25px;
+	object-fit: cover!important;
+	*/
+}
+.col-lg-3{
+	padding: 7px;
+}
+
+.player{
+	height: 500px;
+	position: relative;
+	
+	
+}
+
+
+	
+
+@media only screen and (max-width: 767px){
+    
+	
+	.nav-item{
+	background-color: rgba(1,0,0,0.8)!important;
+	padding: 5px;
+	margin: 5px;
+    }
+	
+	.links-container{
+	display: block!important;
+}
+	
+	
+}
